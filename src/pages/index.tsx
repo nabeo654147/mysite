@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import type { NextPage } from 'next';
+import Footer from '@/components/Footer';
 import Head from 'next/head';
 
 const Home: NextPage = () => {
@@ -14,7 +15,7 @@ const Home: NextPage = () => {
 
       <main></main>
 
-      <footer></footer>
+      <Footer myName={'渡邉 智彦'} copyText={'2021  KIKAGAKU'} />
     </div>
   );
 };
