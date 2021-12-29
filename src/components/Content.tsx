@@ -14,7 +14,7 @@ const Content: VFC<ContentProps> = ({ contents }) => {
     <div className='flex justify-center'>
       {contents.map((content) => {
         return (
-          <div className='flex flex-col items-center max-w-[300px] m-6 pt-6'>
+          <div className='flex flex-col items-center max-w-[300px] m-6 pt-6' key={content.title}>
             <Image src={`/img/${content.image}`} height={150} width={200} />
             <h3 className='text-2xl text-[#008c8d] font-semibold py-4'>{content.title}</h3>
             <p className='text-[#384359]'>{content.description}</p>
