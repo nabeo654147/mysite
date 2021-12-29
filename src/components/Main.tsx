@@ -16,6 +16,17 @@ const Main: VFC = () => {
           <Image src='/img/hero.png' height={500} width={570}></Image>
         </span>
       </div>
+      <div>
+        <div
+          className='h-[564px] w-full bg-cover'
+          style={{ backgroundImage: `url(/img/bg-about.png)` }}
+        >
+          <div className='pt-14'>
+            <SctionTitle title={'私たちについて'} subTitle={'ABOUT'} />
+            <Content contents={contentAbout.contents} />
+          </div>
+        </div>
+      </div>
     </>
   );
 };
