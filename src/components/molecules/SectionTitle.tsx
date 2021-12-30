@@ -5,7 +5,7 @@ type Props = {
   subTitle: string;
 };
 
-const SctionTitle: VFC<Props> = ({ title, subTitle }) => {
+const SectionTitle: VFC<Props> = ({ title, subTitle }) => {
   return (
     <div className='flex w-full justify-center'>
       <h2 className='font-semibold text-3xl text-[#384359] mr-4'>{title}</h2>
@@ -14,4 +14,4 @@ const SctionTitle: VFC<Props> = ({ title, subTitle }) => {
   );
 };
 
-export default SctionTitle;
+export default SectionTitle;
