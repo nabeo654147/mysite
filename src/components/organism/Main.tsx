@@ -1,7 +1,7 @@
 import { VFC } from 'react';
 import Image from 'next/image';
-import SctionTitle from './SctionTitle';
-import Content from './Content';
+import SctionTitle from '../molecules/SctionTitle';
+import Content from '../molecules/Content';
 import { contentAbout } from 'textData/content';
 
 const Main: VFC = () => {

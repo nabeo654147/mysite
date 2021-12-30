@@ -1,8 +1,8 @@
-import Header from '@/components/Header';
+import Header from '@/components/organism/Header';
 import type { NextPage } from 'next';
-import Footer from '@/components/Footer';
+import Footer from '@/components/organism/Footer';
 import Head from 'next/head';
-import Main from '@/components/Main';
+import Main from '@/components/organism/Main';
 
 const Home: NextPage = () => {
   return (
