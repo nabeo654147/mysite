@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { VFC } from 'react';
-import Navbar from './Navbar';
+import Navbar from '../molecules/Navbar';
 
 const Header: VFC<Partial<HTMLHeadElement>> = () => {
   return (

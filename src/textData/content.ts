@@ -1,4 +1,4 @@
-import { ContentProps } from '@/components/Content';
+import { ContentProps } from '@/components/molecules/Content';
 
 export const contentAbout: ContentProps = {
   contents: [
