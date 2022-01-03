@@ -2,7 +2,11 @@ import Header from '@/components/organism/Header';
 import type { NextPage } from 'next';
 import Footer from '@/components/organism/Footer';
 import Head from 'next/head';
-import Main from '@/components/organism/Main';
+import TopSection from '@/components/organism/TopSection';
+import AboutSection from '@/components/organism/AboutSection';
+import SkillsSection from '@/components/organism/SkillsSection';
+import ValuesSection from '@/components/organism/ValuesSection';
+import FutureSection from '@/components/organism/FutureSection';
 
 const Home: NextPage = () => {
   return (
@@ -13,7 +17,11 @@ const Home: NextPage = () => {
         <link rel='icon' href='/img/sommelier.png' />
       </Head>
       <Header />
-      <Main />
+      <TopSection topTitle={'Nabelog'} subTitle={'サブタイトル'} />
+      <AboutSection />
+      <SkillsSection />
+      <ValuesSection />
+      <FutureSection />
       <Footer myName={'渡邉 智彦'} copyText={'2021  KIKAGAKU'} />
     </div>
   );
