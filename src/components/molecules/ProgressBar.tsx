@@ -16,7 +16,7 @@ const ProgressBar: VFC<ProgressBarProps> = ({ barItems }) => {
           <div className='relative pt-2' key={item.barName}>
             <div className='flex items-center'>
               <div>
-                <span className='inline-block text-base font-semibold tracking-wider text-[#008c8d] uppercase'>
+                <span className='inline-block text-base font-semibold tracking-wider text-font-green uppercase'>
                   {item.barName}
                 </span>
               </div>
@@ -28,7 +28,7 @@ const ProgressBar: VFC<ProgressBarProps> = ({ barItems }) => {
                 ></div>
               </div>
               <div className='col-span-2 ml-3'>
-                <span className='text-sm font-semibold text-[#008c8d] lg:text-base text-text-green'>
+                <span className='text-sm font-semibold text-font-green lg:text-base text-text-green'>
                   {item.percent}%
                 </span>
               </div>
