@@ -1,16 +1,16 @@
 import { VFC } from 'react';
-import { contentValues } from 'textData/content';
 import Content from '../molecules/Content';
 import SectionTitle from '../molecules/SectionTitle';
+import { contentValues } from 'textData/content';
 
 const ValuesSection: VFC = () => {
   return (
     <section>
       <div className='pt-14'>
-        <div className='bg-future h-[620px] w-full bg-cover  pt-20 mt-[230px]'>
+        <div className='pt-20 mt-[230px] w-full h-[620px] bg-cover bg-future'>
           <div className='mt-[-320px]'>
             <SectionTitle title={'価値観'} subTitle={'VALUES'} />
-            <div className='flex mx-auto bg-[#ffff] w-[1000px] rounded-md p-3'>
+            <div className='flex p-3 mx-auto w-[1000px] bg-[#ffff] rounded-md'>
               <Content contents={contentValues.contents} />
             </div>
           </div>

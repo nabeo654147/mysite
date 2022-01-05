@@ -1,12 +1,12 @@
-import Header from '@/components/organism/Header';
 import type { NextPage } from 'next';
-import Footer from '@/components/organism/Footer';
 import Head from 'next/head';
-import TopSection from '@/components/organism/TopSection';
 import AboutSection from '@/components/organism/AboutSection';
-import SkillsSection from '@/components/organism/SkillsSection';
-import ValuesSection from '@/components/organism/ValuesSection';
+import Footer from '@/components/organism/Footer';
 import FutureSection from '@/components/organism/FutureSection';
+import Header from '@/components/organism/Header';
+import SkillsSection from '@/components/organism/SkillsSection';
+import TopSection from '@/components/organism/TopSection';
+import ValuesSection from '@/components/organism/ValuesSection';
 
 const Home: NextPage = () => {
   return (
