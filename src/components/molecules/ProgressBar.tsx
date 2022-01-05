@@ -28,7 +28,7 @@ const ProgressBar: VFC<ProgressBarProps> = ({ barItems }) => {
                 ></div>
               </div>
               <div className='col-span-2 ml-3'>
-                <span className='text-sm font-semibold text-font-green lg:text-base text-text-green'>
+                <span className='text-sm font-semibold text-font-green lg:text-base'>
                   {item.percent}%
                 </span>
               </div>

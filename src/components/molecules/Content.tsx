@@ -23,6 +23,7 @@ const Content: VFC<ContentProps> = ({ contents }) => {
             <div className='flex flex-col items-center pt-6 m-6 max-w-[300px]'>
               <Image
                 src={`/img/${content.image}`}
+                alt={`${content.image}`}
                 height={content.imageHeight}
                 width={content.imageWidth}
               />
@@ -31,7 +32,7 @@ const Content: VFC<ContentProps> = ({ contents }) => {
               ) : (
                 <h3 className='py-4 text-2xl font-semibold text-font-green'>{content.title}</h3>
               )}
-              <p className='text-font-dark text-md'>{content.description}</p>
+              <p className='text-font-dark'>{content.description}</p>
             </div>
             {content.partition === true && (
               <div className='my-auto w-0.5 h-[430px] bg-[#c5eaea]'></div>
