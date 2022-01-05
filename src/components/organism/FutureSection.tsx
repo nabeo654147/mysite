@@ -1,14 +1,14 @@
-import React, { VFC } from 'react';
 import Image from 'next/image';
+import React, { VFC } from 'react';
 import SectionTitle from '../molecules/SectionTitle';
 
 const FutureSection: VFC = () => {
   return (
     <section>
-      <div className='flex justify-center mt-[-315px] p-10'>
-        <div className='pr-7 w-4/5 max-w-[550px] my-auto'>
+      <div className='flex justify-center p-10 mt-[-315px]'>
+        <div className='pr-7 my-auto w-4/5 max-w-[550px]'>
           <SectionTitle title={'3年後にやりたいこと'} subTitle={'FUTURE'} justify={'start'} />
-          <p className='text-sm py-8'>
+          <p className='py-8 text-sm'>
             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
           </p>
         </div>
