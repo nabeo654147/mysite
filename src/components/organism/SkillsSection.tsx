@@ -10,7 +10,7 @@ const SkillsSection: VFC = () => {
       <div className='pt-20 mt-[-40px] w-full min-h-[680px] bg-cover bg-skills'>
         <div className='flex justify-center pt-12 m-auto h-[500px]'>
           <div className='my-auto'>
-            <Image src='/img/skill.png' height={350} width={500} />
+            <Image src='/img/skill.png' alt='skill' height={350} width={500} />
           </div>
           <div className='pl-8 w-4/5 max-w-[550px]'>
             <SectionTitle title={'スキル'} subTitle={'SKILLS'} justify={'start'} />

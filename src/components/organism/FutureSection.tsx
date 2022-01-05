@@ -13,7 +13,13 @@ const FutureSection: VFC = () => {
           </p>
         </div>
         <div className='my-auto bg-[#f1f7f8]'>
-          <Image src='/img/future.png' height={230} width={450} className='bg-[#f1f7f8]' />
+          <Image
+            src='/img/future.png'
+            alt='future'
+            height={230}
+            width={450}
+            className='bg-[#f1f7f8]'
+          />
         </div>
       </div>
     </section>
