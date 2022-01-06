@@ -3,9 +3,9 @@ import Head from 'next/head';
 import About from '@/components/organism/About';
 import Footer from '@/components/organism/Footer';
 import FutureSection from '@/components/organism/FutureSection';
+import Hero from '@/components/organism/Hero';
 import PageHeader from '@/components/organism/PageHeader';
 import SkillsSection from '@/components/organism/SkillsSection';
-import Hero from '@/components/organism/Hero';
 import ValuesSection from '@/components/organism/ValuesSection';
 
 const Home: NextPage = () => {
