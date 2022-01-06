@@ -5,7 +5,7 @@ import Footer from '@/components/organism/Footer';
 import FutureSection from '@/components/organism/FutureSection';
 import PageHeader from '@/components/organism/PageHeader';
 import SkillsSection from '@/components/organism/SkillsSection';
-import TopSection from '@/components/organism/TopSection';
+import Hero from '@/components/organism/Hero';
 import ValuesSection from '@/components/organism/ValuesSection';
 
 const Home: NextPage = () => {
@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <link rel='icon' href='/img/sommelier.png' />
       </Head>
       <PageHeader />
-      <TopSection topTitle={'Nabelog'} subTitle={'サブタイトル'} />
+      <Hero topTitle={'Nabelog'} subTitle={'サブタイトル'} />
       <AboutSection />
       <SkillsSection />
       <ValuesSection />
