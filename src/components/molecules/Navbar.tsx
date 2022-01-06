@@ -8,11 +8,11 @@ type Props = {
 const Navbar: VFC<Props> = ({ titles }) => {
   return (
     <nav className='flex items-center'>
-      <ul className='flex justify-around min-w-[400px] font-semibold text-font-green'>
+      <ul className=' grid grid-cols-4 gap-4 font-semibold text-font-green'>
         {titles.map((title) => {
           return (
             <li key={title}>
-              <Link href={'/'}>{title}</Link>
+              <Link href={`#${title}`}>{title}</Link>
             </li>
           );
         })}

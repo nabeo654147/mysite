@@ -3,7 +3,7 @@ import Head from 'next/head';
 import AboutSection from '@/components/organism/AboutSection';
 import Footer from '@/components/organism/Footer';
 import FutureSection from '@/components/organism/FutureSection';
-import Header from '@/components/organism/Header';
+import PageHeader from '@/components/organism/PageHeader';
 import SkillsSection from '@/components/organism/SkillsSection';
 import TopSection from '@/components/organism/TopSection';
 import ValuesSection from '@/components/organism/ValuesSection';
@@ -16,7 +16,7 @@ const Home: NextPage = () => {
         <meta name='description' content='Nabeoの自己紹介ページです' />
         <link rel='icon' href='/img/sommelier.png' />
       </Head>
-      <Header />
+      <PageHeader />
       <TopSection topTitle={'Nabelog'} subTitle={'サブタイトル'} />
       <AboutSection />
       <SkillsSection />
