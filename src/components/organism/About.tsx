@@ -3,10 +3,10 @@ import Content from '../molecules/Content';
 import SectionTitle from '../molecules/SectionTitle';
 import { contentAbout } from 'textData/content';
 
-const AboutSection: VFC = () => {
+const About: VFC = () => {
   return (
     <section>
-      <div className='h-[600px] bg-cover bg-about'>
+      <div className='h-[600px] bg-cover bg-about-pc'>
         <div className='pt-14'>
           <SectionTitle title={'私たちについて'} subTitle={'ABOUT'} />
           <Content contents={contentAbout.contents} />
@@ -16,4 +16,4 @@ const AboutSection: VFC = () => {
   );
 };
 
-export default AboutSection;
+export default About;

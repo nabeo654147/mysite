@@ -12,7 +12,7 @@ const SectionTitle: VFC<Props> = ({ title, subTitle, justify = 'center' }) => {
       <h2 className='mr-4 text-3xl font-semibold text-font-dark' id={subTitle}>
         {title}
       </h2>
-      <p className='flex items-center text-xl font-normal text-font-green'>{subTitle}</p>
+      <h3 className='flex items-center text-xl font-normal text-font-green'>{subTitle}</h3>
     </div>
   );
 };
