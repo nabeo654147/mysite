@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import AboutSection from '@/components/organism/AboutSection';
+import About from '@/components/organism/About';
 import Footer from '@/components/organism/Footer';
 import FutureSection from '@/components/organism/FutureSection';
 import PageHeader from '@/components/organism/PageHeader';
@@ -18,7 +18,7 @@ const Home: NextPage = () => {
       </Head>
       <PageHeader />
       <Hero topTitle={'Nabelog'} subTitle={'サブタイトル'} />
-      <AboutSection />
+      <About />
       <SkillsSection />
       <ValuesSection />
       <FutureSection />

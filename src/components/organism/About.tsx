@@ -3,7 +3,7 @@ import Content from '../molecules/Content';
 import SectionTitle from '../molecules/SectionTitle';
 import { contentAbout } from 'textData/content';
 
-const AboutSection: VFC = () => {
+const About: VFC = () => {
   return (
     <section>
       <div className='h-[600px] bg-cover bg-about'>
@@ -16,4 +16,4 @@ const AboutSection: VFC = () => {
   );
 };
 
-export default AboutSection;
+export default About;
