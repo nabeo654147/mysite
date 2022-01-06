@@ -32,7 +32,7 @@ const Content: VFC<ContentProps> = ({ contents }) => {
               ) : (
                 <h3 className='py-4 text-2xl font-semibold text-font-green'>{content.title}</h3>
               )}
-              <p className='text-font-dark'>{content.description}</p>
+              <p className='text-sm leading-6 text-font-dark'>{content.description}</p>
             </div>
             {content.partition === true && (
               <div className='my-auto w-0.5 h-[430px] bg-[#c5eaea]'></div>
