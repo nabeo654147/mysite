@@ -5,7 +5,7 @@ import Footer from '@/components/organism/Footer';
 import FutureSection from '@/components/organism/FutureSection';
 import Hero from '@/components/organism/Hero';
 import PageHeader from '@/components/organism/PageHeader';
-import SkillsSection from '@/components/organism/SkillsSection';
+import Skills from '@/components/organism/Skills';
 import ValuesSection from '@/components/organism/ValuesSection';
 
 const Home: NextPage = () => {
@@ -19,7 +19,7 @@ const Home: NextPage = () => {
       <PageHeader />
       <Hero topTitle={'Nabelog'} subTitle={'サブタイトル'} />
       <About />
-      <SkillsSection />
+      <Skills />
       <ValuesSection />
       <FutureSection />
       <Footer myName={'渡邉 智彦'} copyText={'2021  KIKAGAKU'} />
