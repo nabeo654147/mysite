@@ -13,7 +13,7 @@ const PageFooter: VFC<Props> = ({ myName, copyText }) => {
         CREATED BY<p className='ml-3 text-lg font-bold'>{myName}</p>
       </span>
       <Image src='/img/logo_white.png' alt='logo_white' height={130} width={110}></Image>
-      <div className='flex justify-around mt-12 mb-6 min-w-[55px]'>
+      <div className=' grid grid-cols-2 gap-4 mt-12 mb-6'>
         <Image src='/img/twitter.png' alt='twitter' height={17} width={17}></Image>
         <Image src='/img/facebook.png' alt='facebook' height={17} width={17}></Image>
       </div>
