@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React, { VFC } from 'react';
 import SectionTitle from '../molecules/SectionTitle';
 
-const FutureSection: VFC = () => {
+const Future: VFC = () => {
   return (
     <section>
       <div className='flex justify-center p-10 mt-[-315px]'>
@@ -26,4 +26,4 @@ const FutureSection: VFC = () => {
   );
 };
 
-export default FutureSection;
+export default Future;
