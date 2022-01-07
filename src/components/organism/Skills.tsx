@@ -8,14 +8,14 @@ const Skills: VFC = () => {
   return (
     <section>
       <div className='pt-20 mt-[-40px] w-full min-h-[680px] bg-cover bg-skills'>
-        <div className='flex justify-center pt-12 m-auto h-[500px]'>
-          <div className='my-auto'>
-            <Image src='/img/skill.png' alt='skill' height={350} width={500} />
+        <div className='grid grid-cols-2 pt-12 m-auto max-w-[90%]'>
+          <div className='flex justify-end my-auto'>
+            <Image src='/img/skill.png' alt='skill' height={372} width={535} />
           </div>
-          <div className='pl-8 w-4/5 max-w-[550px]'>
+          <div className='pl-8 max-w-[550px]'>
             <SectionTitle title={'スキル'} subTitle={'SKILLS'} justify={'start'} />
-            <p className='py-5 text-sm'>
-              テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            <p className='py-5 text-sm leading-6'>
+              テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
             </p>
             <div className='p-6 bg-white rounded-md'>
               <ProgressBar barItems={skillsData.barItems} />
