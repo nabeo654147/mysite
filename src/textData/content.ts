@@ -12,16 +12,16 @@ export const contentAbout: ContentProps = {
     },
     {
       image: 'about-2.png',
-      imageHeight: 157,
-      imageWidth: 184,
+      imageHeight: 158,
+      imageWidth: 206,
       title: '好きな食べ物',
       description:
         'テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト',
     },
     {
       image: 'about-3.png',
-      imageHeight: 157,
-      imageWidth: 184,
+      imageHeight: 149,
+      imageWidth: 245,
       title: '性格',
       description:
         'テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト',
