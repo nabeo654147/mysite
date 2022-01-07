@@ -3,7 +3,7 @@ import Content from '../molecules/Content';
 import SectionTitle from '../molecules/SectionTitle';
 import { contentValues } from 'textData/content';
 
-const ValuesSection: VFC = () => {
+const Values: VFC = () => {
   return (
     <section>
       <div className='pt-14'>
@@ -20,4 +20,4 @@ const ValuesSection: VFC = () => {
   );
 };
 
-export default ValuesSection;
+export default Values;
