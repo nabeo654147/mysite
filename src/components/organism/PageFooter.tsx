@@ -6,7 +6,7 @@ type Props = {
   copyText: string;
 };
 
-const Footer: VFC<Props> = ({ myName, copyText }) => {
+const PageFooter: VFC<Props> = ({ myName, copyText }) => {
   return (
     <footer className='flex flex-col items-center text-[#fff] bg-[#262c3a]'>
       <span className='flex items-center mt-9 mb-12 text-[8px] font-semibold'>
@@ -22,4 +22,4 @@ const Footer: VFC<Props> = ({ myName, copyText }) => {
   );
 };
 
-export default Footer;
+export default PageFooter;
