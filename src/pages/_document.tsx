@@ -8,7 +8,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html className='scroll-smooth scroll-pt-10'>
+      <Html className='scroll-smooth scroll-pt-10' lang='ja'>
         <Head />
         <body>
           <Main />
