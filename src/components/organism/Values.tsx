@@ -10,7 +10,7 @@ const Values: VFC = () => {
         <div className='pt-20 mt-[230px] w-full h-[620px] bg-cover bg-future'>
           <div className='mt-[-320px]'>
             <SectionTitle title={'価値観'} subTitle={'VALUES'} />
-            <div className='flex p-3 mx-auto w-[1000px] bg-[#ffff] rounded-md'>
+            <div className='flex p-3 mx-auto max-w-[1050px] bg-[#ffff] rounded-md'>
               <Content contents={contentValues.contents} />
             </div>
           </div>
