@@ -4,7 +4,7 @@ import ProgressBar from '../molecules/ProgressBar';
 import SectionTitle from '../molecules/SectionTitle';
 import { skillsData } from 'textData/skillsData';
 
-const SkillsSection: VFC = () => {
+const Skills: VFC = () => {
   return (
     <section>
       <div className='pt-20 mt-[-40px] w-full min-h-[680px] bg-cover bg-skills'>
@@ -27,4 +27,4 @@ const SkillsSection: VFC = () => {
   );
 };
 
-export default SkillsSection;
+export default Skills;
