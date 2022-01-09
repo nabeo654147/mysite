@@ -8,7 +8,7 @@ const About: VFC = () => {
     <section>
       <div className='xl:h-[600px] xl:bg-cover xl:bg-about-pc'>
         <div className='pt-14 mx-auto xl:max-w-[70%]'>
-          <SectionTitle title={'私たちについて'} subTitle={'ABOUT'} />
+          <SectionTitle title={'私について'} subTitle={'ABOUT'} />
           <div className='flex justify-center'>
             <Content contents={contentAbout.contents} />
           </div>
