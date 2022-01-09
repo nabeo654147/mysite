@@ -4,7 +4,8 @@ module.exports = {
     extend: {
       backgroundImage: (theme) => ({
         'about-pc': `url(/img/bg-about.png)`,
-        skills: `url(/img/bg-skills.png)`,
+        'skills-pc': `url(/img/bg-skills.png)`,
+        'skills-sp': `url(/img/bg-skills-sp.png)`,
         future: `url(/img/bg-future.png)`,
       }),
       colors: {
