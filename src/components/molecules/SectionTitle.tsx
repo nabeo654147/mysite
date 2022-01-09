@@ -8,8 +8,8 @@ type Props = {
 
 const SectionTitle: VFC<Props> = ({ title, subTitle, justify = 'center' }) => {
   return (
-    <div className={`flex w-full justify-${justify}`}>
-      <h2 className='mr-4 text-3xl font-semibold text-font-dark' id={subTitle}>
+    <div className={`flex items-center flex-col sm:flex-row mx-auto justify-${justify}`}>
+      <h2 className='mr-4 text-2xl font-semibold text-font-dark sm:text-3xl' id={subTitle}>
         {title}
       </h2>
       <h3 className='flex items-center text-xl font-normal text-font-green'>{subTitle}</h3>
