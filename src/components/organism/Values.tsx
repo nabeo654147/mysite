@@ -6,15 +6,16 @@ import { contentValues } from 'textData/content';
 const Values: VFC = () => {
   return (
     <section>
-      <div className='pt-14'>
-        <div className='pt-20 mt-[230px] w-full h-[620px] bg-cover bg-future'>
+      <div className='sm:pt-14'>
+        <div className='mt-[350px] min-h-[620px] bg-cover sm:pt-20 sm:mt-[230px] sm:bg-future-pc'>
           <div className='mt-[-320px]'>
             <SectionTitle title={'価値観'} subTitle={'VALUES'} />
-            <div className='flex p-3 mx-auto max-w-[1050px] bg-[#ffff] rounded-md'>
-              <Content contents={contentValues.contents} />
+            <div className='flex justify-center p-3 mx-auto max-w-[90%] bg-[#ffffff] rounded-md xl:max-w-[70%]'>
+              <Content contents={contentValues.contents} partition={contentValues.partition} />
             </div>
           </div>
         </div>
+        <div className='relative top-[-400px] left-0 -z-10 h-[500px] bg-future-sp sm:hidden' />
       </div>
     </section>
   );
