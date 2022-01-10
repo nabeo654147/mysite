@@ -5,7 +5,7 @@ import Navbar from '../molecules/Navbar';
 
 const PageHeader: VFC = () => {
   return (
-    <header className='flex flex-wrap justify-between mx-auto max-w-[97%]'>
+    <header className='flex flex-wrap justify-center mx-auto max-w-[97%] sm:justify-between'>
       <Link href='/'>
         <a className=' hover:opacity-75'>
           <Image src='/img/logo.png' alt='logo' height={100} width={200} />

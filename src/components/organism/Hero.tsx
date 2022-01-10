@@ -8,13 +8,13 @@ type Props = {
 
 const Hero: VFC<Props> = ({ topTitle, subTitle }) => {
   return (
-    <section className=' bg-[#6bc2c3]'>
-      <div className='grid flex-wrap grid-cols-2 ml-auto max-w-[90%] text-[#fff]'>
-        <div className='flex flex-col my-auto'>
-          <h1 className='text-6xl tracking-widest'>{topTitle}</h1>
-          <p className='mt-4 text-2xl font-semibold text-[#d9f1eb]'>{subTitle}</p>
+    <section className='bg-[#6bc2c3]'>
+      <div className='grid justify-center mx-auto max-w-[90%] text-[#fff] sm:grid-cols-2 sm:ml-auto'>
+        <div className='flex flex-col items-center pt-8 my-auto sm:items-start'>
+          <h1 className='text-4xl tracking-widest sm:text-5xl md:text-6xl'>{topTitle}</h1>
+          <h2 className='mt-4 text-xl font-semibold text-[#d9f1eb] sm:text-2xl'>{subTitle}</h2>
         </div>
-        <span className='flex justify-end pt-10 pr-10 pb-6'>
+        <span className='flex justify-end mt-10 mb-6 max-w-[292px] max-h-[249px] sm:mr-10 sm:max-w-fit sm:max-h-fit'>
           <Image src='/img/hero.png' alt={'hero'} height={498} width={585}></Image>
         </span>
       </div>

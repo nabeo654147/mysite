@@ -9,18 +9,18 @@ export type ContentProps = {
     title: string;
     titleCSS?: string;
     description: string;
-    partition?: boolean;
     valueTitel?: boolean;
   }[];
+  partition?: boolean;
 };
 
-const Content: VFC<ContentProps> = ({ contents }) => {
+const Content: VFC<ContentProps> = ({ contents, partition }) => {
   return (
-    <div className='flex justify-center'>
+    <div className={`grid md:grid-cols-3 ${partition === true && 'md:divide-x divide-[#c5eaea]'}`}>
       {contents.map((content) => {
         return (
           <React.Fragment key={content.title}>
-            <div className='flex flex-col items-center pt-6 m-6 max-w-[300px]'>
+            <div className='flex flex-col items-center pt-6 pl-6 my-6 mr-6 max-w-[300px]'>
               <Image
                 src={`/img/${content.image}`}
                 alt={`${content.image}`}
@@ -34,9 +34,6 @@ const Content: VFC<ContentProps> = ({ contents }) => {
               )}
               <p className='text-sm leading-6 text-font-dark'>{content.description}</p>
             </div>
-            {content.partition === true && (
-              <div className='my-auto w-0.5 h-[430px] bg-[#c5eaea]'></div>
-            )}
           </React.Fragment>
         );
       })}
