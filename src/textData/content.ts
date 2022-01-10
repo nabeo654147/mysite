@@ -38,7 +38,6 @@ export const contentValues: ContentProps = {
       title: '価値観01',
       description:
         'テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト',
-      partition: true,
       valueTitel: true,
     },
     {
@@ -48,7 +47,6 @@ export const contentValues: ContentProps = {
       title: '価値観02',
       description:
         'テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト',
-      partition: true,
       valueTitel: true,
     },
     {
@@ -61,4 +59,5 @@ export const contentValues: ContentProps = {
       valueTitel: true,
     },
   ],
+  partition: true,
 };
