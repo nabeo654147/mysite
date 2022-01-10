@@ -7,7 +7,7 @@ import { skillsData } from 'textData/skillsData';
 const Skills: VFC = () => {
   return (
     <section>
-      <div className='pt-20 mt-0 w-full min-h-[680px] bg-cover bg-skills-sp sm:bg-skills-pc md:mt-20 xl:mt-[-50px]'>
+      <div className='pt-20 min-h-[930px] bg-cover bg-skills-sp sm:min-h-[680px] sm:bg-skills-pc md:mt-20 xl:mt-[-50px]'>
         <div className='mx-auto w-[290px]'>
           <SectionTitle title={'スキル'} subTitle={'SKILLS'} justify={'end'} />
         </div>
