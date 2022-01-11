@@ -9,7 +9,7 @@ type Props = {
 
 const PageFooter: VFC<Props> = ({ myName, copyText }) => {
   return (
-    <footer className='flex flex-col items-center text-[#fff] bg-[#262c3a]'>
+    <footer className='flex flex-col items-center mt-[-6px] text-[#fff] bg-[#262c3a]'>
       <span className='hidden items-center mt-9 mb-12 text-[8px] font-semibold sm:flex'>
         CREATED BY<p className='ml-3 text-lg font-bold'>{myName}</p>
       </span>
