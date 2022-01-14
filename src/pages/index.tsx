@@ -1,5 +1,5 @@
 import type { NextPage } from 'next';
-import Head from 'next/head';
+import PageHead from '@/components/molecules/PageHead';
 import About from '@/components/organism/About';
 import Future from '@/components/organism/Future';
 import Hero from '@/components/organism/Hero';
@@ -11,12 +11,7 @@ import Values from '@/components/organism/Values';
 const Home: NextPage = () => {
   return (
     <div className='tracking-widest'>
-      <Head>
-        <title>Nabeo page</title>
-        <meta name='description' content='Nabeoの自己紹介ページです' />
-        <meta name='viewport' content='initial-scale=1.0, width=device-width' />
-        <link rel='icon' href='/img/sommelier.png' />
-      </Head>
+      <PageHead title='Nabelog' description='Nabeoの自己紹介ページです' />
       <PageHeader />
       <Hero topTitle={'Nabelog'} subTitle={'サブタイトル'} />
       <About />
