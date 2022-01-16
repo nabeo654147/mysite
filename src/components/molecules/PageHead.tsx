@@ -20,7 +20,8 @@ const PageHead: VFC<Props> = ({ title = 'Nabelog', description = 'Nabeoの自己
       <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       <meta name='twitter:card' content='summary_large_image' />
       <meta name='twitter:description' content={description} />
-      <meta name='twitter:image' content='/public/img/favicon.png' />
+      <meta name='twitter:image' content='mysite/public/img/favicon.png' />
+      <meta name='google-site-verification' content='19voYQSFkBtLthKoUHh0IJPMUEU9gnk-n4-bGXNmw3o' />
       <link rel='icon' href='/img/favicon.png' />
       <link rel='apple-touch-icon' href='/img/favicon.png' />
     </Head>
