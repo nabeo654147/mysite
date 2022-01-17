@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { VFC } from 'react';
+import PageHead from '../molecules/PageHead';
 
 type Props = {
   myName: string;
@@ -31,10 +32,21 @@ const PageFooter: VFC<Props> = ({ myName, copyText }) => {
           </Link>
         </span>
       </div>
-      <Image src='/img/logo_white.png' alt='logo_white' height={130} width={110}></Image>
+      <Link href={'/'}>
+        <a className='hover:opacity-75'>
+          <Image src='/img/logo_white.png' alt='logo_white' height={130} width={110}></Image>
+        </a>
+      </Link>
       <div className=' grid grid-cols-2 gap-4 mt-12 mb-6'>
-        <Image src='/img/twitter.png' alt='twitter' height={17} width={17}></Image>
-        <Image src='/img/facebook.png' alt='facebook' height={17} width={17}></Image>
+        <a href='https://twitter.com/nabeo654147' className='hover:opacity-75'>
+          <Image src='/img/twitter.png' alt='twitter' height={17} width={17}></Image>
+        </a>
+        <a
+          href='https://www.facebook.com/profile.php?id=100052345449049'
+          className='hover:opacity-75'
+        >
+          <Image src='/img/facebook.png' alt='facebook' height={17} width={17}></Image>
+        </a>
       </div>
       <span className='mb-5 text-xs'>&copy; {copyText}</span>
     </footer>
