@@ -13,7 +13,6 @@ const PageHead: VFC<Props> = ({ title = 'Nabelog', description = 'Nabeoの自己
       <meta charSet='utf-8' />
       <meta property='description' content={description} />
       <meta name='twitter:card' content='summary' />
-      <meta name='twitter:image' content='/public/img/favicon.png' />
       <meta property='og:title' content={title} />
       <meta property='og:description' content={description} />
       <meta property='og:type' content='website' />
