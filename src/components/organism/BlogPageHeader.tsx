@@ -4,7 +4,7 @@ import { VFC } from 'react';
 
 const PageHeader: VFC = () => {
   return (
-    <header className='flex flex-wrap justify-center my-3 mx-auto max-w-[97%] sm:justify-between sm:my-0'>
+    <header className='flex flex-wrap justify-between my-3 mx-auto max-w-[97%] sm:justify-between sm:my-0'>
       <Link href='/'>
         <a className=' hover:opacity-75'>
           <Image src='/img/logo.png' alt='logo' height={100} width={200} />
