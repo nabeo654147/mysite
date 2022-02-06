@@ -8,6 +8,7 @@ module.exports = {
         'skills-sp': `url(/img/bg-skills-sp.png)`,
         'future-pc': `url(/img/bg-future.png)`,
         'future-sp': `url(/img/bg-future-sp.png)`,
+        'hero2-bg': `url(/img/bg-hero2.png)`,
       }),
       colors: {
         'font-dark': '#384359',
