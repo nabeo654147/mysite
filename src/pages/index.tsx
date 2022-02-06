@@ -18,7 +18,7 @@ const Home: NextPage = () => {
       <Skills />
       <Values />
       <Future />
-      <PageFooter myName={'渡邉 智彦'} copyText={'2021  KIKAGAKU'} />
+      <PageFooter />
     </div>
   );
 };
