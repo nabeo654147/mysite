@@ -8,7 +8,7 @@ type Props = {
   copyText: string;
 };
 
-const PageFooter: VFC<Props> = ({ myName, copyText }) => {
+const PageFooter: VFC<Partial<Props>> = ({ myName = '渡邉 智彦', copyText = '2021  KIKAGAKU' }) => {
   return (
     <footer className='flex flex-col items-center mt-[-6px] text-[#fff] bg-[#262c3a]'>
       <span className='hidden items-center mt-9 mb-12 text-[8px] font-semibold sm:flex'>
