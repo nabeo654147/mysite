@@ -2,14 +2,23 @@ import { VFC } from 'react';
 
 type Props = {
   text?: string;
+  color: string;
 };
 
-const BlogTag: VFC<Props> = ({ text }) => {
+const BlogTag: VFC<Props> = ({ text, color }) => {
   return (
     <div className='mr-2'>
-      <p className='p-1 min-w-[80px] text-center text-strongGreen rounded-md border-2 border-strongGreen'>
-        {text}
-      </p>
+      {color === 'green' ? (
+        <p className='p-1 min-w-[80px] text-center text-strongGreen rounded-md border-2 border-strongGreen'>
+          {text}
+        </p>
+      ) : (
+        <p
+          className={`p-1 min-w-[80px] text-center text-${color}-400 rounded-md border-2 border-${color}-400`}
+        >
+          {text}
+        </p>
+      )}
     </div>
   );
 };
